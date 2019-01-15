@@ -5,8 +5,6 @@ group = 'com.github.sigma1326'
 android {
     compileSdkVersion 28
 
-
-
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
