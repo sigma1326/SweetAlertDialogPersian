@@ -11,7 +11,8 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.simorgh.materialishprogress.ProgressWheel;
+
+import com.simorgh.sweetalertdialog.progress.ProgressWheel;
 
 import androidx.appcompat.app.AppCompatActivity;
 

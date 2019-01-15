@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.success_text_test:
                 new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                         .setTitleText("ورود موفق")
-                        .setContentText("You clicked the button!")
                         .setConfirmText("باشه")
                         .show();
                 break;

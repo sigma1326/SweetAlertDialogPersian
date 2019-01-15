@@ -16,7 +16,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.simorgh.materialishprogress.ProgressWheel;
+import com.simorgh.sweetalertdialog.progress.ProgressWheel;
+
 
 public class SweetAlertDialog extends Dialog implements View.OnClickListener {
     private View mDialogView;
@@ -141,7 +142,9 @@ public class SweetAlertDialog extends Dialog implements View.OnClickListener {
         mCustomImage = findViewById(R.id.custom_image);
         mWarningFrame = findViewById(R.id.warning_frame);
         mConfirmButton = findViewById(R.id.confirm_button);
+        mConfirmButton.setTypeface(typeface);
         mCancelButton = findViewById(R.id.cancel_button);
+        mCancelButton.setTypeface(typeface);
         mProgressHelper.setProgressWheel((ProgressWheel) findViewById(R.id.progressWheel));
         mConfirmButton.setOnClickListener(this);
         mCancelButton.setOnClickListener(this);

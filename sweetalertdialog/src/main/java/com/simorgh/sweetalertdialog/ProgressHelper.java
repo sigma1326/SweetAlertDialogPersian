@@ -2,7 +2,7 @@ package com.simorgh.sweetalertdialog;
 
 import android.content.Context;
 
-import com.simorgh.materialishprogress.ProgressWheel;
+import com.simorgh.sweetalertdialog.progress.ProgressWheel;
 
 
 public class ProgressHelper {

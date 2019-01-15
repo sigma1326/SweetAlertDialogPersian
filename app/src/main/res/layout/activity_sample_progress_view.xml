@@ -76,7 +76,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <com.simorgh.materialishprogress.ProgressWheel
+        <com.simorgh.sweetalertdialog.progress.ProgressWheel
             android:id="@+id/progress_wheel"
             android:layout_width="80dp"
             android:layout_height="80dp"
@@ -125,7 +125,7 @@
                         android:layout_marginTop="16dp"
                         android:text="@string/interpolated" />
 
-                    <com.simorgh.materialishprogress.ProgressWheel
+                    <com.simorgh.sweetalertdialog.progress.ProgressWheel
                         android:id="@+id/interpolated"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -155,7 +155,7 @@
                         android:layout_marginTop="16dp"
                         android:text="@string/linear" />
 
-                    <com.simorgh.materialishprogress.ProgressWheel
+                    <com.simorgh.sweetalertdialog.progress.ProgressWheel
                         android:id="@+id/linear"
                         android:layout_width="80dp"
                         android:layout_height="80dp"

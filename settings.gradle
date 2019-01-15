@@ -1,1 +1,1 @@
-include ':app', ':materialishprogress', ':sweetalertdialog'
+include ':app', ':sweetalertdialog'
