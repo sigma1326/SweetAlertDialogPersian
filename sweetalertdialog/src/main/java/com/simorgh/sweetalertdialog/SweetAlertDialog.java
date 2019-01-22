@@ -18,7 +18,9 @@ import android.widget.TextView;
 
 import com.simorgh.sweetalertdialog.progress.ProgressWheel;
 
+import androidx.annotation.Keep;
 
+@Keep
 public class SweetAlertDialog extends Dialog implements View.OnClickListener {
     private View mDialogView;
     private AnimationSet mModalInAnim;

@@ -17,6 +17,9 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 
+import androidx.annotation.Keep;
+
+@Keep
 public class OptAnimationLoader {
 
     public static Animation loadAnimation(Context context, int id)

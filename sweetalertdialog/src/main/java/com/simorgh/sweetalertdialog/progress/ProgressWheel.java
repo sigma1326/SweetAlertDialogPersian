@@ -19,6 +19,8 @@ import android.view.View;
 
 import com.simorgh.sweetalertdialog.R;
 
+import androidx.annotation.Keep;
+
 /**
  * A Material style progress wheel, compatible up to 2.2.
  * Todd Davies' Progress Wheel https://github.com/Todd-Davies/ProgressWheel
@@ -28,6 +30,7 @@ import com.simorgh.sweetalertdialog.R;
  * Licensed under the Apache License 2.0 license see:
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+@Keep
 public class ProgressWheel extends View {
     private static final String TAG = ProgressWheel.class.getSimpleName();
     private final int barLength = 16;

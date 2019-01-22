@@ -4,7 +4,9 @@ import android.content.Context;
 
 import com.simorgh.sweetalertdialog.progress.ProgressWheel;
 
+import androidx.annotation.Keep;
 
+@Keep
 public class ProgressHelper {
     private ProgressWheel mProgressWheel;
     private boolean mToSpin;

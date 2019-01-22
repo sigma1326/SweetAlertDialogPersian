@@ -9,6 +9,9 @@ import android.util.TypedValue;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
+import androidx.annotation.Keep;
+
+@Keep
 public class Rotate3dAnimation extends Animation {
     private int mPivotXType = ABSOLUTE;
     private int mPivotYType = ABSOLUTE;
