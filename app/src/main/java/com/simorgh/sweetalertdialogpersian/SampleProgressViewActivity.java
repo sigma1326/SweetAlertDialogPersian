@@ -16,6 +16,7 @@ import com.simorgh.sweetalertdialog.progress.ProgressWheel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class SampleProgressViewActivity extends AppCompatActivity {
 
     private ProgressWheel progressWheel;
