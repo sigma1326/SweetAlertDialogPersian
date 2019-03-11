@@ -8,8 +8,8 @@
         </attr>
         <attr name="fromDeg" format="float" />
         <attr name="toDeg" format="float" />
-        <attr name="pivotX" format="fraction" />
-        <attr name="pivotY" format="fraction" />
+        <attr name="myPivotX" format="fraction" />
+        <attr name="myPivotY" format="fraction" />
     </declare-styleable>
 
     <declare-styleable name="ProgressWheel">
