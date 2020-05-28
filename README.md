@@ -1,4 +1,4 @@
-# SweetAlertDialogPersian
+# Sweet Alert Dialog Persian
 updated version of original sweetAlertDialog repo
 
 ## Setup
